@@ -1,3 +1,38 @@
 /**
 * Accordeon
 */
+
+summary {
+    list-style: none;
+}
+
+.accordeon {
+    display: flex;
+    gap: 5vw;
+}
+
+details {
+    display: flex;
+    width: 200px;
+    overflow: hidden;
+    transition: width 0.4s ease;
+}
+
+details[open] {
+    width: calc(200px + 20rem);
+}
+
+summary {
+    flex: 0 0 200px;
+}
+
+summary img {
+    width: 200px;
+    height: 160px;
+}
+
+details > div {
+    flex: 0 0 20rem;
+    width: 20rem;
+    padding-left: 20px;
+}
