@@ -16,6 +16,7 @@ details {
     width: 200px;
     overflow: hidden;
     transition: width 0.4s ease;
+    
 }
 
 details[open] {
