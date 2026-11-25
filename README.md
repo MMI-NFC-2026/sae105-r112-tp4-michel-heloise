@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Michel
+- prénom : Héloise
+- URL Netlify : https://jocular-sfogliatella-eed726.netlify.app/
 
 # Travail
 
